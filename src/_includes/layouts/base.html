@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include "basehead.html" %}
+  {% block head %}{% endblock %}
+</head>
+<body>
+  {{ content | safe }}
+<!-- Bootstrap JS -->
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+<!-- Vendors -->
+<script src="/js/purecounter_vanilla.js"></script>
+<script src="/js/tiny-slider.js"></script>
+<script src="/js/choices.min.js"></script>
+
+<!-- Template Functions -->
+<script src="/js/functions.js"></script>
+</body>
+</html>
