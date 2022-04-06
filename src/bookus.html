@@ -271,26 +271,26 @@ Main Banner START -->
 					<h2 class="mb-3">Book online class</h2>
 					
 					<!-- Form START -->
-					<form class="row g-4 g-sm-3 mt-2 mb-0">
+					<form class="row g-4 g-sm-3 mt-2 mb-0" name="Booking form" method="POST" data-netlify="true" onSubmit="submit">
 						<!-- Name -->
 						<div class="col-12">
 							<label class="form-label">Name *</label>
-							<input type="text" class="form-control" aria-label="First name">
+							<input type="text" class="form-control" aria-label="First name" name="Full Name">
 						</div>
 						<!-- Email -->
 						<div class="col-12">
 							<label class="form-label">Email *</label>
-							<input type="email" class="form-control">
+							<input type="email" class="form-control" name="Email">
 						</div>
 						<!-- Name -->
 						<div class="col-12">
 							<label class="form-label">Mobile number *</label>
-							<input type="text" class="form-control" aria-label="Mobile number">
+							<input type="text" class="form-control" aria-label="Mobile number" name="Phone number">
 						</div>
 						<!-- Category -->
 						<div class="col-12">
 							<label class="form-label">Select class *</label>
-							<select class="form-select js-choice" aria-label=".form-select-sm">
+							<select class="form-select js-choice" aria-label=".form-select-sm" name="Class">
 								<option value="">Select class</option>
 								<option>Digital marketing</option>
 								<option>Business development</option>
