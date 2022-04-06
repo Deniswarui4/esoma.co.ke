@@ -365,32 +365,32 @@ Contact form START -->
           </figure>
 
           <!-- Form START -->
-          <form class="row g-3 position-relative">
+          <form class="row g-3 position-relative" name="Contact-form" method="POST" data-netlify="true" onSubmit="submit">
             <!-- Name -->
             <div class="col-md-6 col-lg-12 col-xl-6">
               <label class="form-label">First name *</label>
-              <input type="text" class="form-control" aria-label="First name">
+              <input type="text" class="form-control" aria-label="First name" name="First name">
             </div>
 
             <!-- Last name -->
             <div class="col-md-6 col-lg-12 col-xl-6">
               <label class="form-label">Last name *</label>
-              <input type="text" class="form-control" aria-label="Last name">
+              <input type="text" class="form-control" aria-label="Last name" name="Last name">
             </div>
             <!-- Email -->
             <div class="col-md-6 col-lg-12 col-xl-6">
               <label class="form-label">Email *</label>
-              <input type="email" class="form-control">
+              <input type="email" class="form-control" name="Email">
             </div>
             <!-- Phone number -->
             <div class="col-md-6 col-lg-12 col-xl-6">
               <label class="form-label">Phone number *</label>
-              <input type="text" class="form-control">
+              <input type="text" class="form-control" name="Phone">
             </div>
             <!-- Comment -->
             <div class="col-12">
               <label class="form-label">Message *</label>
-              <textarea class="form-control" rows="3"></textarea>
+              <textarea class="form-control" rows="3" name="Message"></textarea>
             </div>
             <!-- Button -->
             <div class="col-12">
